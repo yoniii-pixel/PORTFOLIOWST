@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +7,10 @@ body {
     color: #333;
     line-height: 1.6;
 }
-
+.Mainheader{
+    position: sticky;
+    top: 0px;
+}
 header {
     background-color: #002147;
     color: #fff;
@@ -66,7 +70,6 @@ input:focus, textarea:focus, select:focus {
     outline: none;
 }
 
-
 footer {
     background-color: #1a1a1a;
     color: #ccc;
@@ -114,5 +117,95 @@ span{
     font-weight: 700;
     line-height: 1.3;
 }
+/* CP BASED */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #004080;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  nav {
 
+    background-color: #004080;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  /* Laptop Based */
+  @media screen and (min-width: 600px) {
+    .container {
+      padding: 30px;
+    }
+  
+    header {
+      font-size: 2rem;
+    }
+  
+    nav a {
+      margin: 0 15px;
+      font-size: 1.1rem;
+    }
+  }
+  /* PC based */
+  @media screen and (min-width: 1024px) {
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    main {
+      display: flex;
+      gap: 20px;
+    }
+  
+    .main-content {
+      flex: 3;
+    }
+  
+    .sidebar {
+      flex: 1;
+      background-color: #e9ecef;
+      padding: 15px;
+      border-radius: 8px;
+    }
+  }
+  .img {
+    max-width: 100%;
+    height: 500;
+    display: block;
+  }
+  .imgs {
+    max-width: 100%;
+    height: 400;
+    display: block;
+  }
+  
+  
 
